@@ -1,10 +1,11 @@
 import React from 'react';
-import { Jumbotron, Container } from 'reactstrap';
+import Nav from '../Nav';
 
 const Header = (props) => {
   return (
     <div className="App-header">
           <h1 className="display-3">Ryely Moore</h1>
+          <Nav />
     </div>
   );
 };
