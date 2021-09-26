@@ -1,21 +1,18 @@
 import './App.css';
+import React, { useState } from 'react';
+import Header from './component/Header';
+import Footer from './component/Footer';
+import About from './component/About';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <main>
+      <About />
+      </main>
+      <Footer />
     </div>
   );
 }
