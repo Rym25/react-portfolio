@@ -1,19 +1,22 @@
 import React from "react";
 
-function Nav() {
-    const categories = [
-        {name: "About Me"},
-        {name: "Portfolio"},
-        {name: "Contact"},
-        {name: "Resume"}
-     ]
+function Nav(props) {
+    
+    const {
+        categories,
+        setCurrentCategory,
+        currentCategory
+      } = props;
+
     return (
         <nav>
             <ul className="flex-row">
-                {categories.map((category) => (
-                    <li key={category.name} className="li-m">
-                        <span>
-                            {category.name}
+                {categories.map((cat) => (
+                    <li key={cat.name} className={`li-m ${currentCategory.name === cat.name && 'font-weight-bold'}`}>
+                        <span onClick={() => {
+                            setCurrentCategory(cat.name);
+                        }}>
+                            {cat.name}
                         </span>
                     </li>
                 ))}
