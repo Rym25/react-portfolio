@@ -8,7 +8,7 @@ const Portfolio = () => {
         {name:'Random of the Day', imgPath:'RofD.png', gitUrl:'https://github.com/cactido/project-1', hostUrl:'https://cactido.github.io/project-1/index.html?='},
         {name:'Regex Tutorial', imgPath:'Regex-Tutorial.jpg', gitUrl:'https://gist.github.com/Rym25/df7fe30455914ca4f38dfb7101c5dd28', hostUrl:'https://gist.github.com/Rym25/df7fe30455914ca4f38dfb7101c5dd28'},
         {name:'Weather Dashboard', imgPath:'Weather-Dashboard.jpg', gitUrl:'https://github.com/Rym25/Weather-Dashboard', hostUrl:'https://rym25.github.io/Weather-Dashboard/'},
-        {name:'Password Generatot', imgPath:'Password-Generator.jpg', gitUrl:'https://github.com/Rym25/Password-Generator', hostUrl:'https://github.com/Rym25/Password-Generator'},
+        {name:'Password Generatot', imgPath:'Password-Generator.jpg', gitUrl:'https://github.com/Rym25/Password-Generator', hostUrl:'https://rym25.github.io/Password-Generator/'},
         {name:'Note Taker', imgPath:'Note-Taker.jpg', gitUrl:'https://github.com/Rym25/Note-Taker', hostUrl:' https://peaceful-reef-11603.herokuapp.com/'},
     ]
 
