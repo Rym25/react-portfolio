@@ -24,4 +24,5 @@ li {
 .li-m {
   margin-right: calc(1rem * 0.5 );
   margin-left: calc(1rem * 0.5 );
+  cursor: pointer;
 }

@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Header from './component/Header';
 import Footer from './component/Footer';
 import About from './component/About';
+import Contact from './component/Contact'
 
 
 
@@ -23,7 +24,7 @@ function App() {
       <main>
       {currentCategory === 'About Me' && <About/>}  
       {currentCategory === 'Portfolio' && <h1>Portfolio</h1>}  
-      {currentCategory === 'Contact' && <h1>Contact</h1>}  
+      {currentCategory === 'Contact' && <Contact />}  
       {currentCategory === 'Resume' && <h1>Resume</h1>}  
       </main>
       <Footer />
