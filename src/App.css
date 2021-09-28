@@ -46,5 +46,14 @@ a {
   height: 75vh;
 } 
 
+.port-section {
+  height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
+} 
 
+.project-card {
+  color: darkgreen;
+  margin: calc(1rem * 0.5 );
+}
 
