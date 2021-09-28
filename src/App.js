@@ -25,7 +25,6 @@ function App() {
       {currentCategory === 'Portfolio' && <h1>Portfolio</h1>}  
       {currentCategory === 'Contact' && <h1>Contact</h1>}  
       {currentCategory === 'Resume' && <h1>Resume</h1>}  
-      
       </main>
       <Footer />
     </div>
